@@ -1,0 +1,23 @@
+{
+    "name": "paslandau/BooleanExpressions",
+    "description" : "Abstraction of boolean expressions for flexible evaluation within PHP code",
+    "authors": [
+        {
+            "name": "Pascal Landau",
+            "email": "kontakt@myseosolution.de",
+            "homepage": "http://www.myseosolution.de",
+            "role": "Developer"
+        }
+    ],
+	"autoload": {
+	    "psr-4": {
+	        "paslandau\\BooleanExpressions\\": "src/"
+	    }
+	},
+    "require" : {
+        "php": "~5.5"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "~3"
+    }
+}
