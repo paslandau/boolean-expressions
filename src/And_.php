@@ -21,7 +21,7 @@ class And_ extends \ArrayObject implements ExpressionInterface{
      * @param ExpressionInterface $expression
      * @see ArrayObject::append()
      */
-	public function append(ExpressionInterface $expression) {
+	public function append($expression) {
 		parent::append ( $expression );
 	}
 	/**
