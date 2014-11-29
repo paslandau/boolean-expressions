@@ -3,7 +3,7 @@
 use paslandau\BooleanExpressions;
 use paslandau\BooleanExpressions\Not_;
 use paslandau\BooleanExpressions\ExpressionInterface;
-class NotOpTest extends PHPUnit_Framework_TestCase{
+class Not_Test extends PHPUnit_Framework_TestCase{
 	
 	public function testNotTrue()
 	{

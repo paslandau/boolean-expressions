@@ -1,5 +1,6 @@
 {
     "name": "paslandau/BooleanExpressions",
+    "license": "MIT",
     "description" : "Abstraction of boolean expressions for flexible evaluation within PHP code",
     "authors": [
         {

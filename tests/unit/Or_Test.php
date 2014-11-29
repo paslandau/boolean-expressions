@@ -3,7 +3,8 @@
 use paslandau\BooleanExpressions;
 use paslandau\BooleanExpressions\Or_;
 use paslandau\BooleanExpressions\ExpressionInterface;
-class OrOpTest extends PHPUnit_Framework_TestCase{
+
+class Or_Test extends PHPUnit_Framework_TestCase{
 	
 	public function testOrTrue()
 	{
@@ -14,7 +15,7 @@ class OrOpTest extends PHPUnit_Framework_TestCase{
 		$e2->expects($this->any())->method('Solve')->will($this->returnValue(false));
 		$or[] = $e1;
 		$or[] = $e2;
-		$res = $or->Solve();
+		$res = $or->solve();
 		$this->assertTrue($res);
 	}
 	
