@@ -19,14 +19,10 @@ The recommended way to install boolean-expressions is through [Composer](http://
 Next, update your project's composer.json file to include BooleanExpressions:
 
     {
-        "repositories": [
-            {
-                "type": "git",
-                "url": "https://github.com/paslandau/boolean-expressions.git"
-            }
-        ],
+        "repositories": [ { "type": "composer", "url": "http://packages.myseosolution.de/"} ],
+        "minimum-stability": "dev",
         "require": {
-             "paslandau/boolean-expressions": "~0"
+             "paslandau/boolean-expressions": "dev-master"
         }
     }
 
