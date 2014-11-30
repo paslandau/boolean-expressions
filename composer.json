@@ -15,6 +15,8 @@
 	        "paslandau\\BooleanExpressions\\": "src/"
 	    }
 	},
+    "repositories": [ { "type": "composer", "url": "http://packages.myseosolution.de/"} ],
+    "minimum-stability": "dev",
     "require" : {
         "php": "~5.5"
     },
