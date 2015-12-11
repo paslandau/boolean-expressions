@@ -3,7 +3,7 @@
 - docu
 
 ##0.7.0
-
+ 
  - updated dependencies (PHP ~7)
  - updated phpunit to ~4
  
