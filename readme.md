@@ -1,16 +1,24 @@
-#boolean-expressions
+# DEPRECATED ⛔ 
+
+This repository has been deprecated as of 2019-01-27. That code was written a long time ago and has been unmaintained for several years.
+Thus, repository will now be [archived](https://github.blog/2017-11-08-archiving-repositories/).
+If you are interested in taking over ownership, feel free to [contact me](https://www.pascallandau.com/about/).
+
+---
+
+# boolean-expressions
 [![Build Status](https://travis-ci.org/paslandau/boolean-expressions.svg?branch=master)](https://travis-ci.org/paslandau/boolean-expressions)
 
 Abstraction of boolean expressions for flexible evaluation within PHP code
 
-##Description
+## Description
 [todo]
 
-##Requirements
+## Requirements
 
 - PHP >= 5.5
 
-##Installation
+## Installation
 
 The recommended way to install boolean-expressions is through [Composer](http://getcomposer.org/).
 
